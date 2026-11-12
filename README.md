@@ -1,6 +1,6 @@
 # 玛雅历法 · maya core
 
-传统历法和现代 Dreamspell。本仓从 [知几排盘](https://github.com/weihaoyang/qimen-llm-chart) 提取 TypeScript 源码及对应测试，可独立安装依赖并运行；当前没有发布 npm 包。
+传统历法和现代 Dreamspell。本仓从 [知几排盘](https://github.com/weihaoyang/qimen-llm-chart) 提取 TypeScript 源码及对应测试，可独立安装依赖并运行；支持 ESM、CommonJS 与 TypeScript。
 
 ## 运行
 
@@ -12,7 +12,7 @@ npm test
 npm run typecheck
 ```
 
-源码与测试位于 `src/`。
+发布后安装：`npm install @singseq/maya-core`。入口 `@singseq/maya-core`；其他模块可按 `@singseq/maya-core/模块名` 导入。源码与测试位于 `src/`。
 
 ## 资料与案例
 
